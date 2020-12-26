@@ -1,7 +1,3 @@
-# Genshin Calculator
-
-Genshin Calculator is a simple application to calculate how much material is needed to ascend a character and raise the talent level.
-
 ## Website
 
 [Genshin Calculator @ Heroku](https://genshin-calculator.herokuapp.com/)
