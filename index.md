@@ -1,6 +1,6 @@
 ## Website
 
-[Genshin Calculator @ Heroku](https://genshin-calculator.herokuapp.com/)
+[Genshin Calculator @ Heroku](https://genshin-calculator.herokuapp.com/)\
 [Discord Server](#)
 
 ## Supported by
