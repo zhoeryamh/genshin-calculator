@@ -1,0 +1,356 @@
+{
+    "dat_char": [
+        {
+            "char_name": "Amber",
+            "char_ele": 6,
+            "char_spec": 2,
+            "char_talent": 1,
+            "char_comm": 3,
+            "char_week": 6
+        },
+        {
+            "char_name": "Barbara",
+            "char_ele": 5,
+            "char_spec": 3,
+            "char_talent": 1,
+            "char_comm": 4,
+            "char_week": 2
+        },
+        {
+            "char_name": "Beidou",
+            "char_ele": 3,
+            "char_spec": 4,
+            "char_talent": 6,
+            "char_comm": 5,
+            "char_week": 6
+        },
+        {
+            "char_name": "Bennet",
+            "char_ele": 6,
+            "char_spec": 5,
+            "char_talent": 2,
+            "char_comm": 5,
+            "char_week": 4
+        },
+        {
+            "char_name": "Chongyun",
+            "char_ele": 2,
+            "char_spec": 7,
+            "char_talent": 5,
+            "char_comm": 2,
+            "char_week": 6
+        },
+        {
+            "char_name": "Diluc",
+            "char_ele": 6,
+            "char_spec": 2,
+            "char_talent": 2,
+            "char_comm": 6,
+            "char_week": 4
+        },
+        {
+            "char_name": "Diona",
+            "char_ele": 2,
+            "char_spec": 8,
+            "char_talent": 1,
+            "char_comm": 3,
+            "char_week": 8
+        },
+        {
+            "char_name": "Fischl",
+            "char_ele": 3,
+            "char_spec": 2,
+            "char_talent": 3,
+            "char_comm": 3,
+            "char_week": 3
+        },
+        {
+            "char_name": "Jean",
+            "char_ele": 1,
+            "char_spec": 9,
+            "char_talent": 2,
+            "char_comm": 2,
+            "char_week": 4
+        },
+        {
+            "char_name": "Kaeya",
+            "char_ele": 2,
+            "char_spec": 8,
+            "char_talent": 3,
+            "char_comm": 5,
+            "char_week": 3
+        },
+        {
+            "char_name": "Keqing",
+            "char_ele": 3,
+            "char_spec": 7,
+            "char_talent": 4,
+            "char_comm": 7,
+            "char_week": 2
+        },
+        {
+            "char_name": "Klee",
+            "char_ele": 6,
+            "char_spec": 3,
+            "char_talent": 1,
+            "char_comm": 4,
+            "char_week": 2
+        },
+        {
+            "char_name": "Lisa",
+            "char_ele": 3,
+            "char_spec": 10,
+            "char_talent": 3,
+            "char_comm": 1,
+            "char_week": 5
+        },
+        {
+            "char_name": "Mona",
+            "char_ele": 5,
+            "char_spec": 3,
+            "char_talent": 2,
+            "char_comm": 7,
+            "char_week": 2
+        },
+        {
+            "char_name": "Ningguang",
+            "char_ele": 4,
+            "char_spec": 11,
+            "char_talent": 4,
+            "char_comm": 6,
+            "char_week": 3
+        },
+        {
+            "char_name": "Noelle",
+            "char_ele": 4,
+            "char_spec": 10,
+            "char_talent": 2,
+            "char_comm": 2,
+            "char_week": 5
+        },
+        {
+            "char_name": "Qiqi",
+            "char_ele": 2,
+            "char_spec": 12,
+            "char_talent": 4,
+            "char_comm": 4,
+            "char_week": 1
+        },
+        {
+            "char_name": "Razor",
+            "char_ele": 3,
+            "char_spec": 13,
+            "char_talent": 2,
+            "char_comm": 2,
+            "char_week": 5
+        },
+        {
+            "char_name": "Sucrose",
+            "char_ele": 1,
+            "char_spec": 5,
+            "char_talent": 1,
+            "char_comm": 7,
+            "char_week": 3
+        },
+        {
+            "char_name": "Tartaglia",
+            "char_ele": 5,
+            "char_spec": 6,
+            "char_talent": 1,
+            "char_comm": 6,
+            "char_week": 8
+        },
+        {
+            "char_name": "Traveler (Anemo)",
+            "char_ele": 0,
+            "char_spec": 5,
+            "char_talent": [
+                [
+                    [1,0],
+                    [1,1],
+                    [1,2],
+                    [2,1],
+                    [2,2],
+                    [3,1],
+                    [3,2]
+                ]
+            ],
+            "char_comm": [2,4],
+            "char_week": 6
+        },
+        {
+            "char_name": "Traveler (Geo)",
+            "char_ele": 0,
+            "char_spec": 5,
+            "char_talent": [
+                [
+                    [1,0],
+                    [1,1],
+                    [1,2],
+                    [2,1],
+                    [2,2],
+                    [3,1],
+                    [3,2]
+                ],
+                [
+                    [4,0],
+                    [4,1],
+                    [4,2],
+                    [5,1],
+                    [5,2],
+                    [6,1],
+                    [6,2]
+                ]
+            ],
+            "char_comm": [2,4,3],
+            "char_week": [1,6]
+        },
+        {
+            "char_name": "Venti",
+            "char_ele": 1,
+            "char_spec": 1,
+            "char_talent": 3,
+            "char_comm": 1,
+            "char_week": 1
+        },
+        {
+            "char_name": "Xiangling",
+            "char_ele": 6,
+            "char_spec": 14,
+            "char_talent": 5,
+            "char_comm": 1,
+            "char_week": 5
+        },
+        {
+            "char_name": "Xiao",
+            "char_ele": 1,
+            "char_spec": 15,
+            "char_talent": 0,
+            "char_comm": 3,
+            "char_week": 0
+        },
+        {
+            "char_name": "Xingqiu",
+            "char_ele": 5,
+            "char_spec": 16,
+            "char_talent": 6,
+            "char_comm": 2,
+            "char_week": 1
+        },
+        {
+            "char_name": "Xinyan",
+            "char_ele": 6,
+            "char_spec": 12,
+            "char_talent": 6,
+            "char_comm": 5,
+            "char_week": 7
+        },
+        {
+            "char_name": "Zhongli",
+            "char_ele": 4,
+            "char_spec": 7,
+            "char_talent": 6,
+            "char_comm": 1,
+            "char_week": 7
+        },
+        {
+            "char_name": "Albedo",
+            "char_ele": 4,
+            "char_spec": 1,
+            "char_talent": 3,
+            "char_comm": 4,
+            "char_week": 7
+        },
+        {
+            "char_name": "Ganyu",
+            "char_ele": 2,
+            "char_spec": 0,
+            "char_talent": 0,
+            "char_comm": 0,
+            "char_week": 0
+        }
+    ],
+    "dat_ele": [
+        "Traveler",
+        "Anemo",
+        "Cryo",
+        "Electro",
+        "Geo",
+        "Hydro",
+        "Pyro"
+    ],
+    "mat_elite": [
+        "Unknown",
+        "Hurricane Seed",
+        "Hoarfrost Core",
+        "Lightning Prism",
+        "Basalt Pillar",
+        "Cleansing Heart",
+        "Everflame Seed"
+    ],
+    "mat_gem": [
+        ["Brilliant Diamond Sliver", "Brilliant Diamond Fragment", "Brilliant Diamond Chunk", "Brilliant Diamond Gemstone"],
+        ["Vayuda Turqoise Sliver", "Vayuda Turqoise Fragment", "Vayuda Turqoise Chunk", "Vayuda Turqoise Gemstone"],
+        ["Shivada Jade Sliver", "Shivada Jade Fragment", "Shivada Jade Chunk", "Shivada Jade Gemstone"],
+        ["Vajrada Amethyst Sliver", "Vajrada Amethyst Fragment", "Vajrada Amethyst Chunk", "Vajrada Amethyst Gemstone"],
+        ["Prithiva Topaz Sliver", "Prithiva Topaz Fragment", "Prithiva Topaz Chunk", "Prithiva Topaz Gemstone"],
+        ["Varunada Lazurite Sliver", "Varunada Lazurite Fragment", "Varunada Lazurite Chunk", "Varunada Lazurite Gemstone"],
+        ["Agnidus Agate Sliver", "Agnidus Agate Fragment", "Agnidus Agate Chunk", "Agnidus Agate Gemstone"]
+    ],
+    "mat_comm": [
+        ["Unknown", "Unknown", "Unknown"],
+        ["Slime Condensate", "Slime Secretions", "Slime Concentrate"],
+        ["Damaged Mask", "Stained Mask", "Ominous Mask"],
+        ["Firm Arrowhead", "Sharp Arrowhead", "Weathered Arrowhead"],
+        ["Divining Scroll", "Sealed Scroll", "Forbidden Curse Scroll"],
+        ["Treasure Hoarder Insignia", "Silver Raven Insignia", "Golden Raven Insignia"],
+        ["Recruit's Insignia", "Sergeant's Insignia", "Lieutunant's Insignia"],
+        ["Whopperflower Nectar", "Shimmering Nectar", "Energy Nectar"],
+        ["Heavy Horn", "Black Bronze Horn", "Black Crystal Horn"],
+        ["Dead Ley Line Branch", "Dead Ley Line Leaves", "Ley Line Sprouts"],
+        ["Fragile Bone Shard", "Sturdy Bone Shard", "Fossilized Bone Shard"],
+        ["Mist Grass Pollen", "Mist Grass", "Mist Grass Lamp"],
+        ["Hunter's Sacrificial Knife", "Agent's Sacrificial Knife", "Inspector's Sacrificial Knife"],
+        ["Chaos Device", "Chaos Circuit", "Chaos Core"]
+    ],
+    "mat_spec": [
+        "Unknown",
+        "Cecilia",
+        "Small Lamp Grass",
+        "Philanemo Mushroom",
+        "Noctilucous Jade",
+        "Windwheel Aster",
+        "Starconch",
+        "Cor Lapis",
+        "Calla Lily",
+        "Dandelion Seed",
+        "Valberry",
+        "Glaze Lily",
+        "Violet Grass",
+        "Wolfhook",
+        "Jueyun Chili",
+        "Qingxin",
+        "Silk Flower"
+    ],
+    "mat_talent": [
+        ["Unknown", "Unknown", "Unknown"],
+        ["Teachings of \"Freedom\"", "Guide to \"Freedom\"", "Philosophies of \"Freedom\""],
+        ["Teachings of \"Resistance\"", "Guide to \"Resistance\"", "Philosophies of \"Resistance\""],
+        ["Teachings of \"Ballad\"", "Guide to \"Ballad\"", "Philosophies of \"Ballad\""],
+        ["Teachings of \"Prosperity\"", "Guide to \"Prosperity\"", "Philosophies of \"Prosperity\""],
+        ["Teachings of \"Diligence\"", "Guide to \"Diligence\"", "Philosophies of \"Diligence\""],
+        ["Teachings of \"Gold\"", "Guide to \"Gold\"", "Philosophies of \"Gold\""]
+    ],
+    "mat_week": [
+        "Crown of Sagehood",
+        "Tail of Boreas",
+        "Ring of Boreas",
+        "Spirit Locket of Boreas",
+        "Dvalin's Plume",
+        "Dvalin's Claw",
+        "Dvalin's Sigh",
+        "Tusk of Monoceros Caeli",
+        "Shard of a Foul Legacy",
+        "Shadow of the Warrior"
+    ]
+}
