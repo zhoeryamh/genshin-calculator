@@ -5,6 +5,9 @@
 <meta charset="utf-8">
     <!-- Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="Genshin Impact, Genshin Impact Calculator, Genshin Calculator, Ascend Calculator, Ascend Planner">
+    <meta name="description" content="Genshin Calculator is a simple application to calculate how much material is needed to ascend a character or a weapon and raise the talent level.">
+    <meta name="author" content="Surya Maulana">
 
 	<title>Genshin Calculator - Hzed-Group</title>
 
@@ -46,15 +49,14 @@
         </div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <span class="navbar-brand mb-0 h1">Genshin Calculator</span>
+        <a class="navbar-brand" href=".">
+            <img src="img/logo/logo-white.png" height="40" alt="Genshin Calculator">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link" href=".">Home</a>
-            </li>
             <li class="nav-item">
                 <a class="nav-link" href="character-ascend">Character Ascend</a>
             </li>
