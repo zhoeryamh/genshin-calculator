@@ -52,35 +52,21 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href=".">Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="character-ascend">Character Ascend</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link disabled" href="weapon-ascend">Weapon Ascend</a>
             </li>
             </ul>
         </div>
     </nav>
     <div class="jumbotron" style="width: fit-content; margin: auto;">
-        <h1 class="display-4">Welcome to Genshin Calculator</h1>
-        <p class="lead">Genshin Calculator is a simple application to calculate how much material is needed to ascend a character or a weapon and raise the talent level.</p>
-        <hr class="my-4">
-        <h3>Responses and Answer</h3>
-        <p class="font-weight-bold mb-1">R: I found a wrong summary with this character, this website s*cks.</p>
-        <p class="font-weight-normal">A: Calm down, tell me what's wrong <a href="https://github.com/zhoeryamh/genshin-calculator/discussions">here</a> and create new Discussions.</p>
-        <hr>
-        <p class="font-weight-bold mb-1">R: This website looks bad, better using another website</p>
-        <p class="font-weight-normal">A: I'm sorry about that, because this website only developed by One Man Army</p>
-        <footer class="footer-index">
-            <hr class="mb-0">
-            <nav class="navbar">
-                <p class="text-secondary font-weight-light mb-0 small-footer">This web is not affiliated with or endorsed by miHoYo.</p>
-                <p class="text-right text-secondary font-weight-light mb-0 small-footer">Created By <a href="https://github.com/zhoeryamh/">Zhoerya</a> | Based on :  <cite title="Genshin Impact Version">v1.2</cite> | Web :  <cite title="Web Version (25 December 2020)">v1</cite></p>
-            </nav>
-        </footer>
+        <h1 class="display-4">Weapon Ascend is Coming to this website soon.</h1>
+        <p class="lead">Calm down guys.</p>
     </div>
     
     <!-- Javascript Start -->

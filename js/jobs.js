@@ -173,9 +173,25 @@ function summaryModal() {
                             let rowParent = "gemRowSum-" + charaIndex + "-" + gemIndex;
                             let rowImg = "img/gem/"+charaEle+"/"+gemIndex+".png";
                             let rowName = data.mat_gem[charaEle][gemIndex];
+
+                            let rarity;
+                            switch (gemIndex) {
+                                case 0:
+                                    rarity = "star2";
+                                    break;
+                                case 1:
+                                    rarity = "star3";
+                                    break;
+                                case 2:
+                                    rarity = "star4";
+                                    break;
+                                case 3:
+                                    rarity = "star5";
+                                    break;
+                            }
     
                             createRowTable(parentBody, rowParent, null);
-                            createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail", "height: 49px;width: 49px;object-fit: contain;", rowName);
+                            createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail " + rarity, "height: 49px;width: 49px;object-fit: contain;", rowName);
                             createDataCountTable(rowParent, null, "align-middle gem-" + charaEle + "-" + gemIndex, sum);
                         }
                     }
@@ -203,7 +219,7 @@ function summaryModal() {
                     let rowName = data.mat_elite[charaEle];
 
                     createRowTable(parentBody, rowParent, null);
-                    createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail", "height: 49px;width: 49px;object-fit: contain;", rowName);
+                    createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail star4", "height: 49px;width: 49px;object-fit: contain;", rowName);
                     createDataCountTable(rowParent, null, "align-middle elite-" + charaEle, sum);
                 }
 
@@ -226,7 +242,7 @@ function summaryModal() {
                         let rowName = data.mat_spec[charaSpec];
 
                         createRowTable(parentBody, rowParent, null);
-                        createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail", "height: 49px;width: 49px;object-fit: contain;", rowName);
+                        createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail star1", "height: 49px;width: 49px;object-fit: contain;", rowName);
                         createDataCountTable(rowParent, null, "align-middle spec-" + charaSpec, sum);
                     }
                 }
@@ -270,9 +286,22 @@ function summaryModal() {
                                 let rowParent = "commRowSum-" + charaIndex + "-" + arrayValue + "-" + commIndex;
                                 let rowImg = "img/comm/"+arrayValue+"/"+commIndex+".png";
                                 let rowName = data.mat_comm[arrayValue][commIndex];
+
+                                let rarity;
+                                switch (commIndex) {
+                                    case 0:
+                                        rarity = "star1";
+                                        break;
+                                    case 1:
+                                        rarity = "star2";
+                                        break;
+                                    case 2:
+                                        rarity = "star3";
+                                        break;
+                                }
         
                                 createRowTable(parentBody, rowParent, null);
-                                createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail", "height: 49px;width: 49px;object-fit: contain;", rowName);
+                                createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail " + rarity, "height: 49px;width: 49px;object-fit: contain;", rowName);
                                 createDataCountTable(rowParent, null, "align-middle comm-" + arrayValue + "-" + commIndex, sum);
                             }
                         }
@@ -285,9 +314,22 @@ function summaryModal() {
                             let rowParent = "commRowSum-" + charaIndex + "-" + commIndex;
                             let rowImg = "img/comm/"+charaComm+"/"+commIndex+".png";
                             let rowName = data.mat_comm[charaComm][commIndex];
+
+                            let rarity;
+                            switch (commIndex) {
+                                case 0:
+                                    rarity = "star1";
+                                    break;
+                                case 1:
+                                    rarity = "star2";
+                                    break;
+                                case 2:
+                                    rarity = "star3";
+                                    break;
+                            }
     
                             createRowTable(parentBody, rowParent, null);
-                            createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail", "height: 49px;width: 49px;object-fit: contain;", rowName);
+                            createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail " + rarity, "height: 49px;width: 49px;object-fit: contain;", rowName);
                             createDataCountTable(rowParent, null, "align-middle comm-" + charaComm + "-" + commIndex, sum);
                         }
                     }
@@ -335,8 +377,21 @@ function summaryModal() {
                                 let rowImg = "img/talent/"+charaTalentIndex+"/"+charaTalentPos+".png";
                                 let rowName = data.mat_talent[charaTalentIndex][charaTalentPos];
 
+                                let rarity;
+                                switch (charaTalentPos) {
+                                    case 0:
+                                        rarity = "star2";
+                                        break;
+                                    case 1:
+                                        rarity = "star3";
+                                        break;
+                                    case 2:
+                                        rarity = "star4";
+                                        break;
+                                }
+
                                 createRowTable(parentBody, rowParent, null);
-                                createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail", "height: 49px;width: 49px;object-fit: contain;", rowName);
+                                createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail " + rarity, "height: 49px;width: 49px;object-fit: contain;", rowName);
                                 createDataCountTable(rowParent, null, "align-middle talent-" + charaTalentIndex + "-" + charaTalentPos, sum);
                                 // console.log("Talent Data: " + rowName);
                             }
@@ -349,9 +404,22 @@ function summaryModal() {
                             let rowParent = "talentRowSum-" + charaIndex + "-" + talentIndex;
                             let rowImg = "img/talent/"+charaTalent+"/"+talentIndex+".png";
                             let rowName = data.mat_talent[charaTalent][talentIndex];
+
+                            let rarity;
+                            switch (talentIndex) {
+                                case 0:
+                                    rarity = "star2";
+                                    break;
+                                case 1:
+                                    rarity = "star3";
+                                    break;
+                                case 2:
+                                    rarity = "star4";
+                                    break;
+                            }
     
                             createRowTable(parentBody, rowParent, null);
-                            createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail", "height: 49px;width: 49px;object-fit: contain;", rowName);
+                            createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail " + rarity, "height: 49px;width: 49px;object-fit: contain;", rowName);
                             createDataCountTable(rowParent, null, "align-middle talent-" + charaTalent + "-" + talentIndex, sum);
                         }
                     }
@@ -386,7 +454,7 @@ function summaryModal() {
                         let rowName = data.mat_week[weekArray];
 
                         createRowTable(parentBody, rowParent, null);
-                        createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail", "height: 49px;width: 49px;object-fit: contain;", rowName);
+                        createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail star5", "height: 49px;width: 49px;object-fit: contain;", rowName);
                         createDataCountTable(rowParent, null, "align-middle week-" + weekArray, sum);
                     }
                 } else {
@@ -397,7 +465,7 @@ function summaryModal() {
                         let rowName = data.mat_week[charaWeek];
 
                         createRowTable(parentBody, rowParent, null);
-                        createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail", "height: 49px;width: 49px;object-fit: contain;", rowName);
+                        createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail star5", "height: 49px;width: 49px;object-fit: contain;", rowName);
                         createDataCountTable(rowParent, null, "align-middle week-" + charaWeek, sum);
                     }
                 }
@@ -419,7 +487,7 @@ function summaryModal() {
                     let rowName = data.mat_week[0];
 
                     createRowTable(parentBody, rowParent, null);
-                    createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail", "height: 49px;width: 49px;object-fit: contain;", rowName);
+                    createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail star5", "height: 49px;width: 49px;object-fit: contain;", rowName);
                     createDataCountTable(rowParent, null, "align-middle event-0", sum);
                 }
             }
@@ -472,9 +540,25 @@ function sumAllMaterial() {
                     let rowParent = "gemPrintRowSum-" + eleIndex + "-" + gemIndex;
                     let rowImg = "img/gem/" + eleIndex + "/" + gemIndex + ".png";
                     let rowName = dataGem[gemIndex];
+                            
+                    let rarity;
+                    switch (gemIndex) {
+                        case 0:
+                            rarity = "star2";
+                            break;
+                        case 1:
+                            rarity = "star3";
+                            break;
+                        case 2:
+                            rarity = "star4";
+                            break;
+                        case 3:
+                            rarity = "star5";
+                            break;
+                    }
 
                     createRowTable(parentBody, rowParent, null);
-                    createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail", "height: 49px;width: 49px;object-fit: contain;", rowName);
+                    createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail " + rarity, "height: 49px;width: 49px;object-fit: contain;", rowName);
                     createDataCountTable(rowParent, null, "align-middle", sum);
                 }
             }
@@ -503,7 +587,7 @@ function sumAllMaterial() {
                 let rowName = dataElite;
 
                 createRowTable(parentBody, rowParent, null);
-                createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail", "height: 49px;width: 49px;object-fit: contain;", rowName);
+                createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail star4", "height: 49px;width: 49px;object-fit: contain;", rowName);
                 createDataCountTable(rowParent, null, "align-middle", sum);
             }
         }
@@ -529,7 +613,7 @@ function sumAllMaterial() {
                 let rowName = dataSpec[specIndex];
 
                 createRowTable(parentBody, rowParent, null);
-                createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail", "height: 49px;width: 49px;object-fit: contain;", rowName);
+                createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail star1", "height: 49px;width: 49px;object-fit: contain;", rowName);
                 createDataCountTable(rowParent, null, "align-middle", sum);
             }
         }
@@ -557,8 +641,21 @@ function sumAllMaterial() {
                     let rowImg = "img/comm/" + commIndex + "/" + arrayIndex + ".png";
                     let rowName = arrayComm[arrayIndex];
 
+                    let rarity;
+                    switch (arrayIndex) {
+                        case 0:
+                            rarity = "star1";
+                            break;
+                        case 1:
+                            rarity = "star2";
+                            break;
+                        case 2:
+                            rarity = "star3";
+                            break;
+                    }
+
                     createRowTable(parentBody, rowParent, null);
-                    createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail", "height: 49px;width: 49px;object-fit: contain;", rowName);
+                    createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail " + rarity, "height: 49px;width: 49px;object-fit: contain;", rowName);
                     createDataCountTable(rowParent, null, "align-middle", sum);
                 }
             }
@@ -587,8 +684,21 @@ function sumAllMaterial() {
                     let rowImg = "img/talent/" + talentIndex + "/" + arrayIndex + ".png";
                     let rowName = arraytalent[arrayIndex];
 
+                    let rarity;
+                    switch (arrayIndex) {
+                        case 0:
+                            rarity = "star2";
+                            break;
+                        case 1:
+                            rarity = "star3";
+                            break;
+                        case 2:
+                            rarity = "star4";
+                            break;
+                    }
+
                     createRowTable(parentBody, rowParent, null);
-                    createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail", "height: 49px;width: 49px;object-fit: contain;", rowName);
+                    createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail " + rarity, "height: 49px;width: 49px;object-fit: contain;", rowName);
                     createDataCountTable(rowParent, null, "align-middle", sum);
                 }
             }
@@ -615,7 +725,7 @@ function sumAllMaterial() {
                 let rowName = dataWeek[weekIndex];
 
                 createRowTable(parentBody, rowParent, null);
-                createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail", "height: 49px;width: 49px;object-fit: contain;", rowName);
+                createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail star5", "height: 49px;width: 49px;object-fit: contain;", rowName);
                 createDataCountTable(rowParent, null, "align-middle", sum);
             }
         }
@@ -641,7 +751,7 @@ function sumAllMaterial() {
                 let rowName = dataEvent[eventIndex];
 
                 createRowTable(parentBody, rowParent, null);
-                createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail", "height: 49px;width: 49px;object-fit: contain;", rowName);
+                createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail star5", "height: 49px;width: 49px;object-fit: contain;", rowName);
                 createDataCountTable(rowParent, null, "align-middle", sum);
             }
         }
@@ -656,11 +766,11 @@ function sumAllMaterial() {
 function printTable() {
     var divContents = document.getElementById("printTable").innerHTML; 
     var a = window.open(); 
-    a.document.write('<html>'); 
-    a.document.write('<head><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"></head><body>'); 
+    a.document.write('<html>');
+    a.document.write('<head><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"><link rel="stylesheet" type="text/css" href="css/work.css"></head><body>'); 
     a.document.write(divContents); 
     a.document.write('<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script><sup class="blockquote-footer">Printed on :  <cite>'+ Date() +'</cite></sup></body></html>'); 
-    a.document.close(); 
+    a.document.close();
     a.print(); 
 }
 
@@ -688,5 +798,46 @@ function deleteForm() {
     if (localDelete == true) {
         localStorage.clear();
         alert("Form Data has been deleted.");
+    }
+}
+
+// // Table Search
+function searchTable(id, tableId) {
+    var input, filter, table, tr, td, i, txtValue, checkBox;
+    input = document.getElementById(id);
+    filter = input.value.toUpperCase();
+    table = document.getElementById(tableId);
+    tr = table.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+        checkBox = document.getElementsByClassName("chara-" + i);
+        td = tr[i].getElementsByTagName("td")[0];
+        if (td) {
+            txtValue = td.textContent || td.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+            } else {
+                tr[i].style.display = "none";
+            }
+        } 
+    }
+}
+
+// // Card Search
+function searchCard(id, cardId) {
+    var input, filter, card, txtValue;
+    input = document.getElementById(id);
+    filter = input.value.toUpperCase();
+    card = document.getElementsByClassName(cardId);
+    for (i = 0; i < card.length; i++) {
+        label = card[i].getElementsByTagName("label");
+        console.log(label.text);
+        // if (label) {
+            // txtValue = label.textContent || label.innerText;
+            // if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            //     card[i].style.display = "";
+            // } else {
+            //     card[i].style.display = "none";
+            // }
+        // }      
     }
 }

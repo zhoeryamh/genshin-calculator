@@ -6,7 +6,8 @@
             "char_spec": 2,
             "char_talent": 1,
             "char_comm": 3,
-            "char_week": 6
+            "char_week": 6,
+            "char_rarity": 1
         },
         {
             "char_name": "Barbara",
@@ -14,7 +15,8 @@
             "char_spec": 3,
             "char_talent": 1,
             "char_comm": 4,
-            "char_week": 2
+            "char_week": 2,
+            "char_rarity": 1
         },
         {
             "char_name": "Beidou",
@@ -22,7 +24,8 @@
             "char_spec": 4,
             "char_talent": 6,
             "char_comm": 5,
-            "char_week": 6
+            "char_week": 6,
+            "char_rarity": 1
         },
         {
             "char_name": "Bennet",
@@ -30,7 +33,8 @@
             "char_spec": 5,
             "char_talent": 2,
             "char_comm": 5,
-            "char_week": 4
+            "char_week": 4,
+            "char_rarity": 1
         },
         {
             "char_name": "Chongyun",
@@ -38,7 +42,8 @@
             "char_spec": 7,
             "char_talent": 5,
             "char_comm": 2,
-            "char_week": 6
+            "char_week": 6,
+            "char_rarity": 1
         },
         {
             "char_name": "Diluc",
@@ -46,7 +51,8 @@
             "char_spec": 2,
             "char_talent": 2,
             "char_comm": 6,
-            "char_week": 4
+            "char_week": 4,
+            "char_rarity": 2
         },
         {
             "char_name": "Diona",
@@ -54,7 +60,8 @@
             "char_spec": 8,
             "char_talent": 1,
             "char_comm": 3,
-            "char_week": 8
+            "char_week": 8,
+            "char_rarity": 1
         },
         {
             "char_name": "Fischl",
@@ -62,7 +69,8 @@
             "char_spec": 2,
             "char_talent": 3,
             "char_comm": 3,
-            "char_week": 3
+            "char_week": 3,
+            "char_rarity": 1
         },
         {
             "char_name": "Jean",
@@ -70,7 +78,8 @@
             "char_spec": 9,
             "char_talent": 2,
             "char_comm": 2,
-            "char_week": 4
+            "char_week": 4,
+            "char_rarity": 2
         },
         {
             "char_name": "Kaeya",
@@ -78,7 +87,8 @@
             "char_spec": 8,
             "char_talent": 3,
             "char_comm": 5,
-            "char_week": 3
+            "char_week": 3,
+            "char_rarity": 1
         },
         {
             "char_name": "Keqing",
@@ -86,7 +96,8 @@
             "char_spec": 7,
             "char_talent": 4,
             "char_comm": 7,
-            "char_week": 2
+            "char_week": 2,
+            "char_rarity": 2
         },
         {
             "char_name": "Klee",
@@ -94,7 +105,8 @@
             "char_spec": 3,
             "char_talent": 1,
             "char_comm": 4,
-            "char_week": 2
+            "char_week": 2,
+            "char_rarity": 2
         },
         {
             "char_name": "Lisa",
@@ -102,7 +114,8 @@
             "char_spec": 10,
             "char_talent": 3,
             "char_comm": 1,
-            "char_week": 5
+            "char_week": 5,
+            "char_rarity": 1
         },
         {
             "char_name": "Mona",
@@ -110,7 +123,8 @@
             "char_spec": 3,
             "char_talent": 2,
             "char_comm": 7,
-            "char_week": 2
+            "char_week": 2,
+            "char_rarity": 2
         },
         {
             "char_name": "Ningguang",
@@ -118,7 +132,8 @@
             "char_spec": 11,
             "char_talent": 4,
             "char_comm": 6,
-            "char_week": 3
+            "char_week": 3,
+            "char_rarity": 1
         },
         {
             "char_name": "Noelle",
@@ -126,7 +141,8 @@
             "char_spec": 10,
             "char_talent": 2,
             "char_comm": 2,
-            "char_week": 5
+            "char_week": 5,
+            "char_rarity": 1
         },
         {
             "char_name": "Qiqi",
@@ -134,7 +150,8 @@
             "char_spec": 12,
             "char_talent": 4,
             "char_comm": 4,
-            "char_week": 1
+            "char_week": 1,
+            "char_rarity": 2
         },
         {
             "char_name": "Razor",
@@ -142,7 +159,8 @@
             "char_spec": 13,
             "char_talent": 2,
             "char_comm": 2,
-            "char_week": 5
+            "char_week": 5,
+            "char_rarity": 1
         },
         {
             "char_name": "Sucrose",
@@ -150,7 +168,8 @@
             "char_spec": 5,
             "char_talent": 1,
             "char_comm": 7,
-            "char_week": 3
+            "char_week": 3,
+            "char_rarity": 1
         },
         {
             "char_name": "Tartaglia",
@@ -158,7 +177,8 @@
             "char_spec": 6,
             "char_talent": 1,
             "char_comm": 6,
-            "char_week": 8
+            "char_week": 8,
+            "char_rarity": 2
         },
         {
             "char_name": "Traveler (Anemo)",
@@ -176,7 +196,8 @@
                 ]
             ],
             "char_comm": [2,4],
-            "char_week": 6
+            "char_week": 6,
+            "char_rarity": 2
         },
         {
             "char_name": "Traveler (Geo)",
@@ -203,7 +224,8 @@
                 ]
             ],
             "char_comm": [2,4,3],
-            "char_week": [1,6]
+            "char_week": [1,6],
+            "char_rarity": 2
         },
         {
             "char_name": "Venti",
@@ -211,7 +233,8 @@
             "char_spec": 1,
             "char_talent": 3,
             "char_comm": 1,
-            "char_week": 1
+            "char_week": 1,
+            "char_rarity": 2
         },
         {
             "char_name": "Xiangling",
@@ -219,7 +242,8 @@
             "char_spec": 14,
             "char_talent": 5,
             "char_comm": 1,
-            "char_week": 5
+            "char_week": 5,
+            "char_rarity": 1
         },
         {
             "char_name": "Xiao",
@@ -227,7 +251,8 @@
             "char_spec": 15,
             "char_talent": 0,
             "char_comm": 3,
-            "char_week": 0
+            "char_week": 0,
+            "char_rarity": 2
         },
         {
             "char_name": "Xingqiu",
@@ -235,7 +260,8 @@
             "char_spec": 16,
             "char_talent": 6,
             "char_comm": 2,
-            "char_week": 1
+            "char_week": 1,
+            "char_rarity": 1
         },
         {
             "char_name": "Xinyan",
@@ -243,7 +269,8 @@
             "char_spec": 12,
             "char_talent": 6,
             "char_comm": 5,
-            "char_week": 7
+            "char_week": 7,
+            "char_rarity": 1
         },
         {
             "char_name": "Zhongli",
@@ -251,7 +278,8 @@
             "char_spec": 7,
             "char_talent": 6,
             "char_comm": 1,
-            "char_week": 7
+            "char_week": 7,
+            "char_rarity": 2
         },
         {
             "char_name": "Albedo",
@@ -259,7 +287,8 @@
             "char_spec": 1,
             "char_talent": 3,
             "char_comm": 4,
-            "char_week": 7
+            "char_week": 7,
+            "char_rarity": 2
         },
         {
             "char_name": "Ganyu",
@@ -267,7 +296,8 @@
             "char_spec": 0,
             "char_talent": 0,
             "char_comm": 0,
-            "char_week": 0
+            "char_week": 0,
+            "char_rarity": 2
         }
     ],
     "dat_ele": [
