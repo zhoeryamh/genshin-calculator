@@ -40,10 +40,22 @@ body {
   background: linear-gradient(rgba(184, 115, 38, 0.25), rgba(184, 115, 38, 0.75));
 }
 
-.chara-thumb {
-  width: 160px;
+.element {
+  position: absolute; top: 5px; right: 5px;
 }
 
-.element {
-  position: absolute; top: 75px; right: 5px;
+.spanName {
+  position: absolute; bottom: 1px; left: 0px; right: 0px;
+  background-color: #f5f5f5e0;
+}
+
+.weapon-data {
+  /* position: absolute; top: 0px; right: 0px; width: 14vw; */
+  overflow: auto;
+}
+
+.weapon-data p {
+  /* position: absolute; top: 0px; right: 0px; width: 14vw; */
+  margin: 0px;
+  margin-bottom: 2px;
 }

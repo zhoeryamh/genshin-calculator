@@ -293,10 +293,10 @@
         {
             "char_name": "Ganyu",
             "char_ele": 2,
-            "char_spec": 0,
-            "char_talent": 0,
-            "char_comm": 0,
-            "char_week": 0,
+            "char_spec": 15,
+            "char_talent": 5,
+            "char_comm": 7,
+            "char_week": 9,
             "char_rarity": 2
         }
     ],
@@ -382,5 +382,811 @@
         "Tusk of Monoceros Caeli",
         "Shard of a Foul Legacy",
         "Shadow of the Warrior"
+    ],
+    "dat_sword": [
+        {
+            "sword_name": "Dull Blade",
+            "sword_ascend": 1,
+            "sword_comm": [8, 3],
+            "sword_rarity": 1,
+            "sword_atk": 23,
+            "sword_stat": [0, "-"]
+        },
+        {
+            "sword_name": "Silver Sword",
+            "sword_ascend": 1,
+            "sword_comm": [8, 3],
+            "sword_rarity": 2,
+            "sword_atk": 33,
+            "sword_stat": [0, "-"]
+        },
+        {
+            "sword_name": "Cool Steel",
+            "sword_ascend": 1,
+            "sword_comm": [8, 3],
+            "sword_rarity": 3,
+            "sword_atk": 39,
+            "sword_stat": [1, "7.7%"]
+        },
+        {
+            "sword_name": "Dark Iron Sword",
+            "sword_ascend": 4,
+            "sword_comm": [12, 2],
+            "sword_rarity": 3,
+            "sword_atk": 39,
+            "sword_stat": [6, "31"]
+        },
+        {
+            "sword_name": "Harbinger of Dawn",
+            "sword_ascend": 2,
+            "sword_comm": [9, 1],
+            "sword_rarity": 3,
+            "sword_atk": 39,
+            "sword_stat": [3, "10.2%"]
+        },
+        {
+            "sword_name": "Traveler's Handy Sword",
+            "sword_ascend": 3,
+            "sword_comm": [13, 4],
+            "sword_rarity": 3,
+            "sword_atk": 40,
+            "sword_stat": [4, "6.4%"]
+        },
+        {
+            "sword_name": "Fillet Blade",
+            "sword_ascend": 5,
+            "sword_comm": [11, 5],
+            "sword_rarity": 3,
+            "sword_atk": 39,
+            "sword_stat": [1, "7.7%"]
+        },
+        {
+            "sword_name": "Skyrider Sword",
+            "sword_ascend": 6,
+            "sword_comm": [10, 6],
+            "sword_rarity": 3,
+            "sword_atk": 38,
+            "sword_stat": [7, "11.3%"]
+        },
+        {
+            "sword_name": "Festering Desire",
+            "sword_ascend": 3,
+            "sword_comm": [8, 6],
+            "sword_rarity": 4,
+            "sword_atk": 42,
+            "sword_stat": [7, "17.7%"]
+        },
+        {
+            "sword_name": "Iron Sting",
+            "sword_ascend": 0,
+            "sword_comm": [0, 0],
+            "sword_rarity": 4,
+            "sword_atk": 42,
+            "sword_stat": [0, "-"]
+        },
+        {
+            "sword_name": "Lion's Roar",
+            "sword_ascend": 0,
+            "sword_comm": [0, 0],
+            "sword_rarity": 4,
+            "sword_atk": 42,
+            "sword_stat": [0, "-"]
+        },
+        {
+            "sword_name": "Name",
+            "sword_ascend": 0,
+            "sword_comm": [0, 0],
+            "sword_rarity": 4,
+            "sword_atk": 44,
+            "sword_stat": [0, "-"]
+        },
+        {
+            "sword_name": "Name",
+            "sword_ascend": 0,
+            "sword_comm": [0, 0],
+            "sword_rarity": 4,
+            "sword_atk": 0,
+            "sword_stat": [0, "-"]
+        },
+        {
+            "sword_name": "Name",
+            "sword_ascend": 0,
+            "sword_comm": [0, 0],
+            "sword_rarity": 4,
+            "sword_atk": 0,
+            "sword_stat": [0, "-"]
+        },
+        {
+            "sword_name": "Name",
+            "sword_ascend": 0,
+            "sword_comm": [0, 0],
+            "sword_rarity": 4,
+            "sword_atk": 0,
+            "sword_stat": [0, "-"]
+        },
+        {
+            "sword_name": "Name",
+            "sword_ascend": 0,
+            "sword_comm": [0, 0],
+            "sword_rarity": 4,
+            "sword_atk": 0,
+            "sword_stat": [0, "-"]
+        },
+        {
+            "sword_name": "Name",
+            "sword_ascend": 0,
+            "sword_comm": [0, 0],
+            "sword_rarity": 4,
+            "sword_atk": 0,
+            "sword_stat": [0, "-"]
+        },
+        {
+            "sword_name": "Name",
+            "sword_ascend": 0,
+            "sword_comm": [0, 0],
+            "sword_rarity": 4,
+            "sword_atk": 0,
+            "sword_stat": [0, "-"]
+        },
+        {
+            "sword_name": "Name",
+            "sword_ascend": 0,
+            "sword_comm": [0, 0],
+            "sword_rarity": 4,
+            "sword_atk": 0,
+            "sword_stat": [0, "-"]
+        },
+        {
+            "sword_name": "Name",
+            "sword_ascend": 0,
+            "sword_comm": [0, 0],
+            "sword_rarity": 5,
+            "sword_atk": 0,
+            "sword_stat": [0, "-"]
+        },
+        {
+            "sword_name": "Name",
+            "sword_ascend": 0,
+            "sword_comm": [0, 0],
+            "sword_rarity": 5,
+            "sword_atk": 0,
+            "sword_stat": [0, "-"]
+        },
+        {
+            "sword_name": "Name",
+            "sword_ascend": 0,
+            "sword_comm": [0, 0],
+            "sword_rarity": 5,
+            "sword_atk": 0,
+            "sword_stat": [0, "-"]
+        }
+    ],
+    "dat_claymore": [
+        {
+            "claymore_name": "Waster Greatsword",
+            "claymore_ascend": 2,
+            "claymore_comm": [9, 1],
+            "claymore_rarity": 1,
+            "claymore_atk": 23,
+            "claymore_stat": [0, "-"]
+        },
+        {
+            "claymore_name": "Old Merc's Pal",
+            "claymore_ascend": 2,
+            "claymore_comm": [9, 1],
+            "claymore_rarity": 2,
+            "claymore_atk": 33,
+            "claymore_stat": [0, "-"]
+        },
+        {
+            "claymore_name": "Bloodtainted Greatsword",
+            "claymore_ascend": 2,
+            "claymore_comm": [9, 3],
+            "claymore_rarity": 3,
+            "claymore_atk": 38,
+            "claymore_stat": [6, "41"]
+        },
+        {
+            "claymore_name": "Debate Club",
+            "claymore_ascend": 5,
+            "claymore_comm": [11, 2],
+            "claymore_rarity": 3,
+            "claymore_atk": 39,
+            "claymore_stat": [1, "7.7%"]
+        },
+        {
+            "claymore_name": "Ferrous Shadow",
+            "claymore_ascend": 1,
+            "claymore_comm": [8, 7],
+            "claymore_rarity": 3,
+            "claymore_atk": 39,
+            "claymore_stat": [5, "7.7%"]
+        },
+        {
+            "claymore_name": "Skyrider Greatsword",
+            "claymore_ascend": 6,
+            "claymore_comm": [10, 5],
+            "claymore_rarity": 3,
+            "claymore_atk": 39,
+            "claymore_stat": [8, "9.6%"]
+        },
+        {
+            "claymore_name": "White Iron Greatsword",
+            "claymore_ascend": 3,
+            "claymore_comm": [13, 1],
+            "claymore_rarity": 3,
+            "claymore_atk": 38,
+            "claymore_stat": [4, "9.6%"]
+        },
+        {
+            "claymore_name": "Name",
+            "claymore_ascend": 0,
+            "claymore_comm": [0, 0],
+            "claymore_rarity": 4,
+            "claymore_atk": 0,
+            "claymore_stat": [0, "-"]
+        },
+        {
+            "claymore_name": "Name",
+            "claymore_ascend": 0,
+            "claymore_comm": [0, 0],
+            "claymore_rarity": 4,
+            "claymore_atk": 0,
+            "claymore_stat": [0, "-"]
+        },
+        {
+            "claymore_name": "Name",
+            "claymore_ascend": 0,
+            "claymore_comm": [0, 0],
+            "claymore_rarity": 4,
+            "claymore_atk": 0,
+            "claymore_stat": [0, "-"]
+        },
+        {
+            "claymore_name": "Name",
+            "claymore_ascend": 0,
+            "claymore_comm": [0, 0],
+            "claymore_rarity": 4,
+            "claymore_atk": 0,
+            "claymore_stat": [0, "-"]
+        },
+        {
+            "claymore_name": "Name",
+            "claymore_ascend": 0,
+            "claymore_comm": [0, 0],
+            "claymore_rarity": 4,
+            "claymore_atk": 0,
+            "claymore_stat": [0, "-"]
+        },
+        {
+            "claymore_name": "Name",
+            "claymore_ascend": 0,
+            "claymore_comm": [0, 0],
+            "claymore_rarity": 4,
+            "claymore_atk": 0,
+            "claymore_stat": [0, "-"]
+        },
+        {
+            "claymore_name": "Name",
+            "claymore_ascend": 0,
+            "claymore_comm": [0, 0],
+            "claymore_rarity": 4,
+            "claymore_atk": 0,
+            "claymore_stat": [0, "-"]
+        },
+        {
+            "claymore_name": "Name",
+            "claymore_ascend": 0,
+            "claymore_comm": [0, 0],
+            "claymore_rarity": 4,
+            "claymore_atk": 0,
+            "claymore_stat": [0, "-"]
+        },
+        {
+            "claymore_name": "Name",
+            "claymore_ascend": 0,
+            "claymore_comm": [0, 0],
+            "claymore_rarity": 4,
+            "claymore_atk": 0,
+            "claymore_stat": [0, "-"]
+        },
+        {
+            "claymore_name": "Name",
+            "claymore_ascend": 0,
+            "claymore_comm": [0, 0],
+            "claymore_rarity": 4,
+            "claymore_atk": 0,
+            "claymore_stat": [0, "-"]
+        },
+        {
+            "claymore_name": "Name",
+            "claymore_ascend": 0,
+            "claymore_comm": [0, 0],
+            "claymore_rarity": 5,
+            "claymore_atk": 0,
+            "claymore_stat": [0, "-"]
+        },
+        {
+            "claymore_name": "Name",
+            "claymore_ascend": 0,
+            "claymore_comm": [0, 0],
+            "claymore_rarity": 5,
+            "claymore_atk": 0,
+            "claymore_stat": [0, "-"]
+        },
+        {
+            "claymore_name": "Name",
+            "claymore_ascend": 0,
+            "claymore_comm": [0, 0],
+            "claymore_rarity": 5,
+            "claymore_atk": 0,
+            "claymore_stat": [0, "-"]
+        }
+    ],
+    "dat_polearm": [
+        {
+            "polearm_name": "Beginner's Protector",
+            "polearm_ascend": 3,
+            "polearm_comm": [13, 4],
+            "polearm_rarity": 1,
+            "polearm_atk": 23,
+            "polearm_stat": [0, "-"]
+        },
+        {
+            "polearm_name": "Name",
+            "polearm_ascend": 0,
+            "polearm_comm": [0, 0],
+            "polearm_rarity": 2,
+            "polearm_atk": 0,
+            "polearm_stat": [0, "-"]
+        },
+        {
+            "polearm_name": "Name",
+            "polearm_ascend": 0,
+            "polearm_comm": [0, 0],
+            "polearm_rarity": 3,
+            "polearm_atk": 0,
+            "polearm_stat": [0, "-"]
+        },
+        {
+            "polearm_name": "Name",
+            "polearm_ascend": 0,
+            "polearm_comm": [0, 0],
+            "polearm_rarity": 3,
+            "polearm_atk": 0,
+            "polearm_stat": [0, "-"]
+        },
+        {
+            "polearm_name": "Name",
+            "polearm_ascend": 0,
+            "polearm_comm": [0, 0],
+            "polearm_rarity": 3,
+            "polearm_atk": 0,
+            "polearm_stat": [0, "-"]
+        },
+        {
+            "polearm_name": "Name",
+            "polearm_ascend": 0,
+            "polearm_comm": [0, 0],
+            "polearm_rarity": 4,
+            "polearm_atk": 0,
+            "polearm_stat": [0, "-"]
+        },
+        {
+            "polearm_name": "Name",
+            "polearm_ascend": 0,
+            "polearm_comm": [0, 0],
+            "polearm_rarity": 4,
+            "polearm_atk": 0,
+            "polearm_stat": [0, "-"]
+        },
+        {
+            "polearm_name": "Name",
+            "polearm_ascend": 0,
+            "polearm_comm": [0, 0],
+            "polearm_rarity": 4,
+            "polearm_atk": 0,
+            "polearm_stat": [0, "-"]
+        },
+        {
+            "polearm_name": "Name",
+            "polearm_ascend": 0,
+            "polearm_comm": [0, 0],
+            "polearm_rarity": 4,
+            "polearm_atk": 0,
+            "polearm_stat": [0, "-"]
+        },
+        {
+            "polearm_name": "Name",
+            "polearm_ascend": 0,
+            "polearm_comm": [0, 0],
+            "polearm_rarity": 4,
+            "polearm_atk": 0,
+            "polearm_stat": [0, "-"]
+        },
+        {
+            "polearm_name": "Name",
+            "polearm_ascend": 0,
+            "polearm_comm": [0, 0],
+            "polearm_rarity": 4,
+            "polearm_atk": 0,
+            "polearm_stat": [0, "-"]
+        },
+        {
+            "polearm_name": "Name",
+            "polearm_ascend": 0,
+            "polearm_comm": [0, 0],
+            "polearm_rarity": 4,
+            "polearm_atk": 0,
+            "polearm_stat": [0, "-"]
+        },
+        {
+            "polearm_name": "Name",
+            "polearm_ascend": 0,
+            "polearm_comm": [0, 0],
+            "polearm_rarity": 4,
+            "polearm_atk": 0,
+            "polearm_stat": [0, "-"]
+        },
+        {
+            "polearm_name": "Name",
+            "polearm_ascend": 0,
+            "polearm_comm": [0, 0],
+            "polearm_rarity": 5,
+            "polearm_atk": 0,
+            "polearm_stat": [0, "-"]
+        },
+        {
+            "polearm_name": "Name",
+            "polearm_ascend": 0,
+            "polearm_comm": [0, 0],
+            "polearm_rarity": 5,
+            "polearm_atk": 0,
+            "polearm_stat": [0, "-"]
+        },
+        {
+            "polearm_name": "Name",
+            "polearm_ascend": 0,
+            "polearm_comm": [0, 0],
+            "polearm_rarity": 5,
+            "polearm_atk": 0,
+            "polearm_stat": [0, "-"]
+        }
+    ],
+    "dat_bow": [
+        {
+            "bow_name": "Hunter's Bow",
+            "bow_ascend": 2,
+            "bow_comm": [9, 5],
+            "bow_rarity": 1,
+            "bow_atk": 23,
+            "bow_stat": [0, "-"]
+        },
+        {
+            "bow_name": "Name",
+            "bow_ascend": 0,
+            "bow_comm": [0, 0],
+            "bow_rarity": 2,
+            "bow_atk": 0,
+            "bow_stat": [0, "-"]
+        },
+        {
+            "bow_name": "Name",
+            "bow_ascend": 0,
+            "bow_comm": [0, 0],
+            "bow_rarity": 3,
+            "bow_atk": 0,
+            "bow_stat": [0, "-"]
+        },
+        {
+            "bow_name": "Name",
+            "bow_ascend": 0,
+            "bow_comm": [0, 0],
+            "bow_rarity": 3,
+            "bow_atk": 0,
+            "bow_stat": [0, "-"]
+        },
+        {
+            "bow_name": "Name",
+            "bow_ascend": 0,
+            "bow_comm": [0, 0],
+            "bow_rarity": 3,
+            "bow_atk": 0,
+            "bow_stat": [0, "-"]
+        },
+        {
+            "bow_name": "Name",
+            "bow_ascend": 0,
+            "bow_comm": [0, 0],
+            "bow_rarity": 3,
+            "bow_atk": 0,
+            "bow_stat": [0, "-"]
+        },
+        {
+            "bow_name": "Name",
+            "bow_ascend": 0,
+            "bow_comm": [0, 0],
+            "bow_rarity": 3,
+            "bow_atk": 0,
+            "bow_stat": [0, "-"]
+        },
+        {
+            "bow_name": "Name",
+            "bow_ascend": 0,
+            "bow_comm": [0, 0],
+            "bow_rarity": 3,
+            "bow_atk": 0,
+            "bow_stat": [0, "-"]
+        },
+        {
+            "bow_name": "Name",
+            "bow_ascend": 0,
+            "bow_comm": [0, 0],
+            "bow_rarity": 4,
+            "bow_atk": 0,
+            "bow_stat": [0, "-"]
+        },
+        {
+            "bow_name": "Name",
+            "bow_ascend": 0,
+            "bow_comm": [0, 0],
+            "bow_rarity": 4,
+            "bow_atk": 0,
+            "bow_stat": [0, "-"]
+        },
+        {
+            "bow_name": "Name",
+            "bow_ascend": 0,
+            "bow_comm": [0, 0],
+            "bow_rarity": 4,
+            "bow_atk": 0,
+            "bow_stat": [0, "-"]
+        },
+        {
+            "bow_name": "Name",
+            "bow_ascend": 0,
+            "bow_comm": [0, 0],
+            "bow_rarity": 4,
+            "bow_atk": 0,
+            "bow_stat": [0, "-"]
+        },
+        {
+            "bow_name": "Name",
+            "bow_ascend": 0,
+            "bow_comm": [0, 0],
+            "bow_rarity": 4,
+            "bow_atk": 0,
+            "bow_stat": [0, "-"]
+        },
+        {
+            "bow_name": "Name",
+            "bow_ascend": 0,
+            "bow_comm": [0, 0],
+            "bow_rarity": 4,
+            "bow_atk": 0,
+            "bow_stat": [0, "-"]
+        },
+        {
+            "bow_name": "Name",
+            "bow_ascend": 0,
+            "bow_comm": [0, 0],
+            "bow_rarity": 4,
+            "bow_atk": 0,
+            "bow_stat": [0, "-"]
+        },
+        {
+            "bow_name": "Name",
+            "bow_ascend": 0,
+            "bow_comm": [0, 0],
+            "bow_rarity": 4,
+            "bow_atk": 0,
+            "bow_stat": [0, "-"]
+        },
+        {
+            "bow_name": "Name",
+            "bow_ascend": 0,
+            "bow_comm": [0, 0],
+            "bow_rarity": 4,
+            "bow_atk": 0,
+            "bow_stat": [0, "-"]
+        },
+        {
+            "bow_name": "Name",
+            "bow_ascend": 0,
+            "bow_comm": [0, 0],
+            "bow_rarity": 5,
+            "bow_atk": 0,
+            "bow_stat": [0, "-"]
+        },
+        {
+            "bow_name": "Name",
+            "bow_ascend": 0,
+            "bow_comm": [0, 0],
+            "bow_rarity": 5,
+            "bow_atk": 0,
+            "bow_stat": [0, "-"]
+        }
+    ],
+    "dat_catalyst": [
+        {
+            "catalyst_name": "Apprentice's Notes",
+            "catalyst_ascend": 1,
+            "catalyst_comm": [8, 2],
+            "catalyst_rarity": 1,
+            "catalyst_atk": 23,
+            "catalyst_stat": [0, "-"]
+        },
+        {
+            "catalyst_name": "Name",
+            "catalyst_ascend": 0,
+            "catalyst_comm": [0, 0],
+            "catalyst_rarity": 2,
+            "catalyst_atk": 0,
+            "catalyst_stat": [0, "-"]
+        },
+        {
+            "catalyst_name": "Name",
+            "catalyst_ascend": 0,
+            "catalyst_comm": [0, 0],
+            "catalyst_rarity": 3,
+            "catalyst_atk": 0,
+            "catalyst_stat": [0, "-"]
+        },
+        {
+            "catalyst_name": "Name",
+            "catalyst_ascend": 0,
+            "catalyst_comm": [0, 0],
+            "catalyst_rarity": 3,
+            "catalyst_atk": 0,
+            "catalyst_stat": [0, "-"]
+        },
+        {
+            "catalyst_name": "Name",
+            "catalyst_ascend": 0,
+            "catalyst_comm": [0, 0],
+            "catalyst_rarity": 3,
+            "catalyst_atk": 0,
+            "catalyst_stat": [0, "-"]
+        },
+        {
+            "catalyst_name": "Name",
+            "catalyst_ascend": 0,
+            "catalyst_comm": [0, 0],
+            "catalyst_rarity": 3,
+            "catalyst_atk": 0,
+            "catalyst_stat": [0, "-"]
+        },
+        {
+            "catalyst_name": "Name",
+            "catalyst_ascend": 0,
+            "catalyst_comm": [0, 0],
+            "catalyst_rarity": 3,
+            "catalyst_atk": 0,
+            "catalyst_stat": [0, "-"]
+        },
+        {
+            "catalyst_name": "Name",
+            "catalyst_ascend": 0,
+            "catalyst_comm": [0, 0],
+            "catalyst_rarity": 4,
+            "catalyst_atk": 0,
+            "catalyst_stat": [0, "-"]
+        },
+        {
+            "catalyst_name": "Name",
+            "catalyst_ascend": 0,
+            "catalyst_comm": [0, 0],
+            "catalyst_rarity": 4,
+            "catalyst_atk": 0,
+            "catalyst_stat": [0, "-"]
+        },
+        {
+            "catalyst_name": "Name",
+            "catalyst_ascend": 0,
+            "catalyst_comm": [0, 0],
+            "catalyst_rarity": 4,
+            "catalyst_atk": 0,
+            "catalyst_stat": [0, "-"]
+        },
+        {
+            "catalyst_name": "Name",
+            "catalyst_ascend": 0,
+            "catalyst_comm": [0, 0],
+            "catalyst_rarity": 4,
+            "catalyst_atk": 0,
+            "catalyst_stat": [0, "-"]
+        },
+        {
+            "catalyst_name": "Name",
+            "catalyst_ascend": 0,
+            "catalyst_comm": [0, 0],
+            "catalyst_rarity": 4,
+            "catalyst_atk": 0,
+            "catalyst_stat": [0, "-"]
+        },
+        {
+            "catalyst_name": "Name",
+            "catalyst_ascend": 0,
+            "catalyst_comm": [0, 0],
+            "catalyst_rarity": 4,
+            "catalyst_atk": 0,
+            "catalyst_stat": [0, "-"]
+        },
+        {
+            "catalyst_name": "Name",
+            "catalyst_ascend": 0,
+            "catalyst_comm": [0, 0],
+            "catalyst_rarity": 4,
+            "catalyst_atk": 0,
+            "catalyst_stat": [0, "-"]
+        },
+        {
+            "catalyst_name": "Name",
+            "catalyst_ascend": 0,
+            "catalyst_comm": [0, 0],
+            "catalyst_rarity": 4,
+            "catalyst_atk": 0,
+            "catalyst_stat": [0, "-"]
+        },
+        {
+            "catalyst_name": "Name",
+            "catalyst_ascend": 0,
+            "catalyst_comm": [0, 0],
+            "catalyst_rarity": 4,
+            "catalyst_atk": 0,
+            "catalyst_stat": [0, "-"]
+        },
+        {
+            "catalyst_name": "Name",
+            "catalyst_ascend": 0,
+            "catalyst_comm": [0, 0],
+            "catalyst_rarity": 4,
+            "catalyst_atk": 0,
+            "catalyst_stat": [0, "-"]
+        },
+        {
+            "catalyst_name": "Name",
+            "catalyst_ascend": 0,
+            "catalyst_comm": [0, 0],
+            "catalyst_rarity": 5,
+            "catalyst_atk": 0,
+            "catalyst_stat": [0, "-"]
+        },
+        {
+            "catalyst_name": "Name",
+            "catalyst_ascend": 0,
+            "catalyst_comm": [0, 0],
+            "catalyst_rarity": 5,
+            "catalyst_atk": 0,
+            "catalyst_stat": [0, "-"]
+        },
+        {
+            "catalyst_name": "Name",
+            "catalyst_ascend": 0,
+            "catalyst_comm": [0, 0],
+            "catalyst_rarity": 5,
+            "catalyst_atk": 0,
+            "catalyst_stat": [0, "-"]
+        }
+    ],
+    "mat_weapon": [
+        ["Unknown", "Unknown", "Unknown", "Unknown"],
+        ["Tile of Decarabian's Tower", "Debris of Decarabian's City", "Fragments of Decarabian's Epic", "Scattered Piece of Decarabian's Dream"],
+        ["Boreal Wolf's Milk Tooth", "Boreal Wolf's Cracked Tooth", "Boreal Wolf's Broken Fang", "Boreal Wolf's Nostalgia"],
+        ["Fetters of the Dandelion Gladiator", "Chains of the Dandelion Gladiator", "Shackles of the Dandelion Gladiator", "Dream of the Dandelion Gladiator"],
+        ["Luminous Sands from Guyun", "Lustrous Stone from Guyun", "Relic from Guyun", "Divine Body from Guyun"],
+        ["Mist Veiled Lead Elixir", "Mist Veiled Mercury Elixir", "Mist Veiled Gold Elixir", "Mist Veiled Primo Elixir"],
+        ["Grain of Aerosiderite", "Piece of Aerosiderite", "Bit of Aerosiderite", "Chunk of Aerosiderite"]
+    ],
+    "stat_weapon": [
+        "None",
+        "ATK",
+        "Crit. Rate",
+        "Crit. DMG",
+        "DEF",
+        "HP",
+        "Ele. Mastery",
+        "Energy Recharge",
+        "Physical DMG. Bonus"
     ]
 }

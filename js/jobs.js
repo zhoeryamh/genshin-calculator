@@ -20,29 +20,31 @@ $('#summary').on('hide.bs.modal', function () {
 });
 
 // // LocalStorage Validation
-window.onload = function() {
-    $.getJSON("genshin.json", function(data){
-        for (let index = 0; index < Object.keys(data.dat_char).length; index++) {  
-            var chara = document.getElementById("chara-" + index);
-            var ascend = document.getElementById("ascend-" + index);
-            var talent1 = document.getElementById("talent1-" + index);
-            var talent2 = document.getElementById("talent2-" + index);
-            var talent3 = document.getElementById("talent3-" + index);
-
-            chara.checked = localStorage.getItem("chara-" + index);
-            if (chara.checked) {
-                ascend.disabled = false;
-                ascend.value = localStorage.getItem("ascend-" + index);
-                talent1.disabled = false;
-                talent1.value = localStorage.getItem("talent1-" + index);
-                talent2.disabled = false;
-                talent2.value = localStorage.getItem("talent2-" + index);
-                talent3.disabled = false;
-                talent3.value = localStorage.getItem("talent3-" + index); 
+if (document.getElementById("farmForm")) {
+    window.onload = function() {
+        $.getJSON("genshin.json", function(data){
+            for (let index = 0; index < Object.keys(data.dat_char).length; index++) {  
+                var chara = document.getElementById("chara-" + index);
+                var ascend = document.getElementById("ascend-" + index);
+                var talent1 = document.getElementById("talent1-" + index);
+                var talent2 = document.getElementById("talent2-" + index);
+                var talent3 = document.getElementById("talent3-" + index);
+    
+                chara.checked = localStorage.getItem("chara-" + index);
+                if (chara.checked) {
+                    ascend.disabled = false;
+                    ascend.value = localStorage.getItem("ascend-" + index);
+                    talent1.disabled = false;
+                    talent1.value = localStorage.getItem("talent1-" + index);
+                    talent2.disabled = false;
+                    talent2.value = localStorage.getItem("talent2-" + index);
+                    talent3.disabled = false;
+                    talent3.value = localStorage.getItem("talent3-" + index); 
+                }
             }
-        }
-    })
-}; 
+        })
+    }; 
+}
 
 // Run with Function
 // // Checkbox Validation
@@ -780,7 +782,7 @@ function exportTable() {
         headers: false,
         formats: ["xlsx"],
         bootstrap: true,
-        filename: "Genshin Calculator Summary",
+        filename: "Character Ascension - Genshin Calculator Summary",
         sheetname: "Summary",
         exportButtons: false,
     });
@@ -797,7 +799,7 @@ function deleteForm() {
     var localDelete = confirm("Delete all Form Data ?");
     if (localDelete == true) {
         localStorage.clear();
-        alert("Form Data has been deleted.");
+        alert("All Form Data has been deleted.");
     }
 }
 

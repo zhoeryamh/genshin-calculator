@@ -26,28 +26,6 @@
     <!-- JS End -->
 </head>
 <body class="bg-light">
-    <!-- Modal -->
-    <div class="modal fade" id="summary" tabindex="-1" role="dialog" aria-labelledby="summaryTitle" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="summaryTitle">Summary</h5>
-                <button type="button" class="btn btn-success btn-sm ml-2" id="summaryTotalScroll">Total</button>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body" id="summaryBody">
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-light" data-dismiss="modal" id="summaryClose">Close</button>
-                <button type="button" class="btn btn-success" id="saveXlsx">Save to XLSX</button>
-                <button type="button" class="btn btn-primary" onclick="printTable()">Print</button>
-            </div>
-            </div>
-        </div>
-    </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <a class="navbar-brand" href=".">
             <img src="img/logo/logo-white.png" height="40" alt="Genshin Calculator">
@@ -61,14 +39,14 @@
                 <a class="nav-link" href="character-ascend">Character Ascend</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link disabled" href="weapon-ascend">Weapon Ascend</a>
+                <a class="nav-link disabled" href="#">Weapon Ascend</a>
             </li>
             </ul>
         </div>
     </nav>
     <div class="jumbotron" style="width: fit-content; margin: auto;">
-        <h1 class="display-4">Welcome to Genshin Calculator</h1>
-        <p class="lead">Genshin Calculator is a simple application to calculate how much material is needed to ascend a character or a weapon and raise the talent level.</p>
+        <h1 class="display-4 text-center">Welcome to <img src="img/logo/logo-black.png" height="50" alt="Genshin Calculator"></h1>
+        <p class="lead text-justify">Genshin Calculator is a simple application to calculate how much material is needed to ascend a character or a weapon and raise the talent level.</p>
         <hr class="my-4">
         <h3>Responses and Answer</h3>
         <p class="font-weight-bold mb-1">R: I found a wrong summary with this character, this website s*cks.</p>
@@ -80,7 +58,7 @@
             <hr class="mb-0">
             <nav class="navbar">
                 <p class="text-secondary font-weight-light mb-0 small-footer">This web is not affiliated with or endorsed by miHoYo.</p>
-                <p class="text-right text-secondary font-weight-light mb-0 small-footer">Created By <a href="https://github.com/zhoeryamh/">Zhoerya</a> | Based on :  <cite title="Genshin Impact Version">v1.2</cite> | Web :  <cite title="Web Version (25 December 2020)">v1</cite></p>
+                <p class="text-right text-secondary font-weight-light mb-0 small-footer">Created By <a href="https://github.com/zhoeryamh/">Zhoerya</a> | Based on :  <cite title="Genshin Impact Version">v1.2</cite> | Web :  <cite title="Web Version (25 December 2020)">BETA v1.2</cite></p>
             </nav>
         </footer>
     </div>

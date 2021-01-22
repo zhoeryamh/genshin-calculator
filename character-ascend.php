@@ -62,14 +62,13 @@
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="character-ascend">Character Ascend</a>
+                <a class="nav-link" href="character-ascend">Character Ascension</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link disabled" href="weapon-ascend">Weapon Ascend</a>
+                <a class="nav-link disabled" href="#">Weapon Ascension</a>
             </li>
             </ul>
             <button type="button" id="deleteCookie" class="btn btn-danger col-lg-auto col-sm-12 mt-lg-0 mt-2 ml-lg-2" onclick="deleteForm()">Delete Data</button>
-            <input  class="form-control col-lg-2 col-sm-12 mt-lg-0 mt-2 ml-lg-2" type="search" id="searchChara" onkeyup="searchTable(this.id, 'tableCharaAscend')" placeholder="Search Character">
         </div>
     </nav>
     <form id="farmForm" style="width: 100%;margin: auto;">
@@ -77,8 +76,13 @@
         <table class="table table-hover mb-0" id="tableCharaAscend">
             <thead class="thead-dark">
                 <tr>
-                    <th style="width: 124px" class="align-middle text-center">Character</th>
-                    <th class="align-middle">Current Ascend & Talent Level</th>
+                    <th class="align-middle" colspan="2">
+                    <input  class="form-control form-control-sm" type="search" id="searchChara" onkeyup="searchTable(this.id, 'tableCharaAscend')" placeholder="Search Character">
+                    </th>
+                </tr>
+                <tr>
+                    <th style="width: 148px" class="align-middle text-center">Character</th>
+                    <th class="align-middle pl-0">Current Ascend & Talent Level</th>
                 </tr>
             </thead>
             <tbody>
@@ -106,14 +110,14 @@
                     echo '
                 <tr>
                     <td>
-                        <div class="custom-control custom-checkbox image-checkbox">
-                            <input type="checkbox" id="chara-'.$charIndex.'" name="chara-'.$charIndex.'" value="'.$charIndex.'" onclick="charaClick(this.id, this.value)" class="charaBox custom-control-input" '; if ($charIndex == 24 || $charIndex == 29) { echo 'disabled'; }; echo '>
+                        <div class="custom-control custom-checkbox image-checkbox" style="font-size: 12px;">
+                            <input type="checkbox" id="chara-'.$charIndex.'" name="chara-'.$charIndex.'" value="'.$charIndex.'" onclick="charaClick(this.id, this.value)" class="charaBox custom-control-input" '; if ($charIndex == 24) { echo 'disabled'; }; echo '>
                             <label for="chara-'.$charIndex.'" class="custom-control-label text-center" title="'.$name.'">
-                                <img src="img/chara/'.($charIndex + 1).'.png" alt="'.$name.'" class="img-thumbnail chara-thumb '.$bg.'"><img src="img/ele/'.$element.'.png" class="element" style="width: 20px;"></br>'.$name.'
+                                <img src="img/chara/'.($charIndex + 1).'.png" alt="'.$name.'" class="img-thumbnail '.$bg.'" style="width: 124px"><span class="spanName">'.$name.'</span><img src="img/ele/'.$element.'.png" class="element" style="width: 30px;">
                             </label>
                         </div>
                     </td>
-                    <td>
+                    <td class="pl-0">
                         <div class="form-group mb-0">
                             <input name="ascend-'.$charIndex.'" id="ascend-'.$charIndex.'" type="number" class="form-control form-control-sm" min="0" max="6" disabled required placeholder="Ascend">
                         </div>
