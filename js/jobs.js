@@ -142,10 +142,15 @@ function summaryModal() {
 
             var charaName = data.dat_char[charaIndex].char_name;
             var charaEle = data.dat_char[charaIndex].char_ele;
+            var charaElite = null;
             var charaSpec = data.dat_char[charaIndex].char_spec;
             var charaComm = data.dat_char[charaIndex].char_comm;
             var charaTalent = data.dat_char[charaIndex].char_talent;
             var charaWeek = data.dat_char[charaIndex].char_week;
+
+            if (data.dat_char[charaIndex].hasOwnProperty('char_elite')) {
+                charaElite = data.dat_char[charaIndex].char_elite;
+            }
 
             var charaHead, charaRow, parentHead, parentBody, parentRow;
             if (chara.checked) { 
@@ -210,19 +215,38 @@ function summaryModal() {
         
                 createBodyTable(table, parentBody);
 
-                if (charaEle != 0) {
-                    sum = eliteCount(ascend.value);
+                if (charaElite) {
+                    if (charaElite != 0) {
+                        sum = eliteCount(ascend.value);
+                    } else {
+                        sum = 0;
+                    }
+                    
+                    if (sum > 0) {
+                        let rowParent = "eliteRowSum-" + charaIndex + "-" + charaElite;
+                        let rowImg = "img/elite/"+charaElite+".png";
+                        let rowName = data.mat_elite[charaElite];
+    
+                        createRowTable(parentBody, rowParent, null);
+                        createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail star4", "height: 49px;width: 49px;object-fit: contain;", rowName);
+                        createDataCountTable(rowParent, null, "align-middle elite-" + charaElite, sum);
+                    }
                 } else {
-                    sum = 0;
-                }
-                if (sum > 0) {
-                    let rowParent = "eliteRowSum-" + charaIndex + "-" + charaEle;
-                    let rowImg = "img/elite/"+charaEle+".png";
-                    let rowName = data.mat_elite[charaEle];
-
-                    createRowTable(parentBody, rowParent, null);
-                    createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail star4", "height: 49px;width: 49px;object-fit: contain;", rowName);
-                    createDataCountTable(rowParent, null, "align-middle elite-" + charaEle, sum);
+                    if (charaEle != 0) {
+                        sum = eliteCount(ascend.value);
+                    } else {
+                        sum = 0;
+                    }
+                    
+                    if (sum > 0) {
+                        let rowParent = "eliteRowSum-" + charaIndex + "-" + charaEle;
+                        let rowImg = "img/elite/"+charaEle+".png";
+                        let rowName = data.mat_elite[charaEle];
+    
+                        createRowTable(parentBody, rowParent, null);
+                        createDataNameTable(rowParent, rowImg, "img-fluid img-thumbnail star4", "height: 49px;width: 49px;object-fit: contain;", rowName);
+                        createDataCountTable(rowParent, null, "align-middle elite-" + charaEle, sum);
+                    }
                 }
 
                 parentHead = "specHead-" + charaIndex;
@@ -576,7 +600,7 @@ function sumAllMaterial() {
         createDataHeadTable(parentRow, "Need", null);
         createBodyTable(table, parentBody);
 
-        var dataEle = data.dat_ele;
+        var dataEle = data.mat_elite;
         for (let eliteIndex = 0; eliteIndex < Object.keys(dataEle).length; eliteIndex++) {
             var dataElite = data.mat_elite[eliteIndex];
 

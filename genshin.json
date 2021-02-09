@@ -248,10 +248,11 @@
         {
             "char_name": "Xiao",
             "char_ele": 1,
+            "char_elite": 7,
             "char_spec": 15,
-            "char_talent": 0,
-            "char_comm": 3,
-            "char_week": 0,
+            "char_talent": 4,
+            "char_comm": 1,
+            "char_week": 9,
             "char_rarity": 2
         },
         {
@@ -316,7 +317,8 @@
         "Lightning Prism",
         "Basalt Pillar",
         "Cleansing Heart",
-        "Everflame Seed"
+        "Everflame Seed",
+        "Juvenile Jade"
     ],
     "mat_gem": [
         ["Brilliant Diamond Sliver", "Brilliant Diamond Fragment", "Brilliant Diamond Chunk", "Brilliant Diamond Gemstone"],
