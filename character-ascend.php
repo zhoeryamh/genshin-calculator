@@ -111,7 +111,7 @@
                 <tr>
                     <td>
                         <div class="custom-control custom-checkbox image-checkbox" style="font-size: 12px;">
-                            <input type="checkbox" id="chara-'.$charIndex.'" name="chara-'.$charIndex.'" value="'.$charIndex.'" onclick="charaClick(this.id, this.value)" class="charaBox custom-control-input" '; if ($charIndex == 24) { echo 'disabled'; }; echo '>
+                            <input type="checkbox" id="chara-'.$charIndex.'" name="chara-'.$charIndex.'" value="'.$charIndex.'" onclick="charaClick(this.id, this.value)" class="charaBox custom-control-input" >
                             <label for="chara-'.$charIndex.'" class="custom-control-label text-center" title="'.$name.'">
                                 <img src="img/chara/'.($charIndex + 1).'.png" alt="'.$name.'" class="img-thumbnail '.$bg.'" style="width: 124px"><span class="spanName">'.$name.'</span><img src="img/ele/'.$element.'.png" class="element" style="width: 30px;">
                             </label>
